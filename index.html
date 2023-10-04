@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mi primera Web</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menuh">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#redes">Redes sociales</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div class="hero">
+            <h1>Bienvenido a mi sitio web personal</h1>
+            <p>
+                Soy Erick Marcial Machacado Rizo, un desarrollador web apasionado por
+                la creación de sitios web increíbles.
+            </p>
+            <p>Nací en Colombia, Bogotá D.C. y vivo en Pailitas- Cesar.</p>
+            <br />
+            <img class="image" src="img/foto.png" alt="Desarrolador Web" />
+
+            <p>
+                Trabajo como Desarrollador Web y Técnico en mantenimiento de
+                computadoras, estoy en búsqueda del conocimiento para adquirir
+                destrezas y habilidades. Siempre con todas la energías de aprender y
+                aportar habilidades.
+            </p>
+        </div>
+    </section>
+
+    <div>
+        <img class="image banner" src="img/dev-banner.jpg" alt="Desarrollos" />
+    </div>
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <div class="proyecto">
+            <img src="proyecto1.jpg" alt="Proyecto 1" />
+            <h3>Proyecto 1</h3>
+            <p>
+                Descripción del proyecto 1. Aquí hablar sobre los detalles y
+                tecnologías utilizadas.
+            </p>
+            <a href="#">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+            <img src="proyecto2.jpg" alt="Proyecto 2" />
+            <h3>Proyecto 2</h3>
+            <p>
+                Descripción del proyecto 2. Incluir capturas de pantalla o enlaces a
+                tus proyectos en línea.
+            </p>
+            <a href="#">Ver proyecto</a>
+        </div>
+    </section>
+
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <div class="acerca-contenido">
+            <img src="img/foto.png" alt="Tu foto" />
+            <p>
+                ¡Hola! Soy Erick, un desarrollador web con experiencia en HTML, CSS y
+                JavaScript. Me encanta crear sitios web atractivos y funcionales que
+                ayuden a mis clientes a destacar en línea.
+            </p>
+        </div>
+    </section>
+
+    <section class="form-header" id="contacto">
+            <h2>Contacto</h2>
+            <p><em>¡Esperamos tu consulta!</em></p>
+    
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="pepe@gmail.com" required/>
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+                <p class="alertas" id="alertas"></p>
+            </form>
+    </section>
+
+    <footer>
+        <p>Sígueme en las redes sociales:</p>
+        <ul id="redes">
+            <li>
+                <a href="https://www.facebook.com/erick.marcial.ma/" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/erickmarcialma" target="_blank">Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/erickmarcialm/" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://wa.me/+573154107195" target="_blank">Whatsapp</a>
+            </li>
+            <!-- Agrega enlaces a tus otras redes sociales aquí -->
+        </ul>
+        <div>Creado por Erick Marcial</div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
